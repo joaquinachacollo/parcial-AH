@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name": "The Legend of Zelda: Breath of the Wild",
+        "gender": "Aventura",
+        "platform": "Nintendo Switch",
+        "release_date": "2017-03-03",
+        "description": "Un juego de exploración en mundo abierto."
+      },
+      {
+        "id": 2,
+        "name": "God of War",
+        "gender": "Acción",
+        "platform": "PlayStation",
+        "release_date": "2018-04-20",
+        "description": "Una historia épica entre Kratos y su hijo."
+      }
+]
