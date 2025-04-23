@@ -37,4 +37,4 @@ const deleteGame =  async (request, response) => {
     }
 }
 
-export { getGames, getGameById, addGame, updateGame, deleteGame}
+export { getGames, getGameById, addGame, updateGame, deleteGame};
