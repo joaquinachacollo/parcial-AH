@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>API</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a la API de Juegos</h1>
+    </header>
+    <main>
+        <div class="section">
+            <h2>Juegos</h2>
+            <p class="route get">GET /api/games<br><span>Obtener todos los juegos</span></p>
+            <p class="route get">GET /api/games/:id<br><span>Obtener juego por ID</span></p>
+            <p class="route get">GET /api/games/name/:name<br><span>Obtener juego por Nombre<span></p>
+            <p class="route get">GET /api/games/name/filter/platform/:platform<br><span>Obtener juego por Plataforma<span></p>
+            <p class="route post">POST /api/games<br><span>Crear nuevo juego</span></p>
+            <p class="route put">PUT /api/games/:id<br><span>Actualizar juego</span></p>
+            <p class="route delete">DELETE /api/games/:id<br><span>Eliminar juego</span></p>
+        </div>
+        <div class="section">
+            <h2>Desarrolladores</h2>
+            <p class="route get">GET /api/developers<br><span>Obtener todos los desarrolladores</span></p>
+            <p class="route get">GET /api/developers/:id<br><span>Obtener desarrollador por ID</span></p>
+            <p class="route get">GET /api/developers/name/:name<br><span>Obtener desarrollador por Nombre<span></p>
+            <p class="route get">GET /api/developers/country/:country<br><span>Obtener desarrollador por Plataforma<span></p>
+            <p class="route post">POST /api/developers<br><span>Crear nuevo desarrollador</span></p>
+            <p class="route put">PUT /api/developers/:id<br><span>Actualizar desarrollador</span></p>
+            <p class="route delete">DELETE /api/developers/:id<br><span>Eliminar desarrollador</span></p>
+        </div>
+        <div class="section">
+            <h2>Usuarios</h2>
+            <p class="route get">GET /api/users<br><span>Obtener todos los usuarios</span></p>
+            <p class="route get">GET /api/users/:id<br><span>Obtener usuario por ID</span></p>
+            <p class="route post">POST /api/users<br><span>Crear nuevo usuario</span></p>
+            <p class="route put">PUT /api/users/:id<br><span>Actualizar usuario</span></p>
+            <p class="route delete">DELETE /api/users/:id<br><span>Eliminar usuario</span></p>
+        </div>
+    </main>
+
+    <footer>
+            <p>Nombre: Alexander Joaquin Achacollo Helguero</p>
+            <p>Materia: Aplicaciones Híbridas</p>
+            <p>Docente: Jonathan Emanuel Cruz</p>
+            <p>Comisión: DWM4AP</p>
+    </footer>
+
+    
+</body>
+</html>
